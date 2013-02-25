@@ -1,0 +1,370 @@
+<html>
+<head>
+<title>Opticurv Dokumentation</title>
+<meta name="author" content="Lutz Wirsig">
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+</head>
+<body>
+<font FACE="Helvetica" size="4">
+<i>	
+<p ALIGN="RIGHT">
+
+<a HREF="index-4.html">Weiter</a> <a HREF="index-2.html">Zur&#252;ck</a>
+
+ <a HREF="index.html#toc3">Inhaltsverzeichnis</a>
+</p>
+<h2><a NAME="s3">3. Men&#252;eintr&#228;ge</a></h2>
+<p>
+<H3><A NAME="ss3.1">3.1 Datei</A>
+</H3>
+<p>
+<h4>Neu</h4>
+<P>
+&#214;ffnet ein Dialogfenster zur Eingabe des Dateinamens. Das
+Programm speichert automatisch die Eingabedaten in dieser Datei.
+<center><img src="SaveAs2.png"></center>
+<center>Abbildung 1&#58; Dialogfenster</center>
+<p>
+Nach der Eingabe des Dateinamens erscheint das Eingabeparameterfenster &#40;Abb. 2&#41;.
+F&#252;r den Bewegungsverlauf sind die Anzahl der Bewegungsabschnitte,
+das Bewegungsgesetz, die Gesamtdrehwinkel <FONT size="5">&#966;<SUB> H ik</SUB>
+<FONT size="4">und
+die Gesamth&#252;be <FONT size="5">&#115;<SUB> H ik</SUB><FONT size="4"> anzugeben.
+Die aktuelle Gesamtgradzahl der Gesamtdrehwinkel
+ wird unterhalb der Maske <tt>Bewegungsverlauf</tt> angezeigt.
+<center><img src="Bewegungsverlauf2.png"></center>
+<center>Abbildung 2&#58; Definition des Bewegungsverlaufs</center>
+<p>
+Die Bezeichnungen beziehen sich auf den Bewegungsplan &#40;Abb. 3&#41;. Das Vorzeichen
+von <FONT size="5">s<SUB> Hik</SUB><FONT size="4"> ist positiv einzugeben, wenn das
+Getriebe ein F-Kurvengetriebe ist. Beim P-Kurvengetriebe ist das Vorzeichen negativ
+definiert.
+<p>
+<center><img src="Bewegungsplan2.png"></center>
+<center>Abbildung 3&#58; Bewegungsplan</center>
+<p>        	
+Im zweiten Eingabemaske werden die Geometriedaten
+eingelesen. Abbildung 4 zeigt die definierten Gr&#246;&#223;en.
+<center><img src="Kurvenkoppelgetriebe2.png"></center>
+<center>Abbildung 4&#58; Kurvenkoppelgetriebe mit Doppelschwinghebel</center>
+<p>
+Die Bezeichnungen der Formelzeichen werden in einem rechteckigen Kasten
+eingeblendet, wenn der Benutzer die Maus eine k&#252;rzere Zeit &#252;ber dem
+Kurzzeichen ruhen l&#228;&#223;t. Man kann aber auch im Formelverzeichnis
+nachschlagen.
+<br>
+Neben den in Bild 4 angegebenen Gr&#246;&#223;en werden in
+ der Maske <tt>Geometriedaten</tt> noch die Ausf&#252;hrung der Kurvenscheibe, der
+ Scheibenradius <FONT size="5">r<SUB> S</SUB><FONT size="4">, der Wellenradius <FONT size="5">r<SUB> W</SUB><FONT size="4">
+ und die Schrittweite <FONT size="5">n<FONT size="4"> des Drehwinkels eingelesen.
+ Die Kurvenscheibe kann als Nutkurvenscheibe oder
+ als Doppelkurvenscheibe ausgef&#252;hrt werden.
+<p>
+In der dritten Maske <tt>Vorzeichendefinitionen</tt>
+ sind folgende Fragen zu beantworten&#58;
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="7%"><font size="4">1.</TD><TD><font size="4"><i>Ist die Drehrichtung der Kurvenscheibe mathematisch positiv oder negativ&#63;</TD>
+</TR>
+<TR>
+<TD width="7%"><font size="4">2.</TD><TD><font size="4"><i>Sind die Vorzeichen von Koordinate <FONT size="5">x<SUB> S0</SUB><FONT size="4"> und Hub <FONT size="5">s&#40;&#966;&#41;<FONT size="4"> zu Beginn der Bewegung gleich&#63;</TD>
+</TR>
+<TR>
+<TD width="7%"><font size="4">3.</TD><TD><font size="4"><i>In welchem Quadrant befindet sich der Punkt <FONT size="5">B<SUB> a</SUB><FONT size="4">&#63;</TD>
+</TR>
+<TR>
+<TD width="7%"><font size="4">4.</TD><TD><font size="4"><i>Ist die Bewegung des Schwinghebels zu Beginn der Bewegung mathematisch positiv oder negativ&#63;</TD>
+</TR>
+</TABLE>
+In der ersten Frage mu&#223; der Drehsinn der Kurvenscheibe angegeben werden. Er ist mathematisch
+ positiv, wenn sich die Kurvenscheibe entgegen dem Uhrzeigersinn bewegt. Bewegt sich die
+ Kurvenscheibe mit dem Uhrzeigersinn, ist der Drehsinn mathematisch negativ.
+<p>
+Bei der zweiten Frage sind die Vorzeichen gleich, wenn entweder beide positiv oder
+ beide negativ sind. Ungleich sind die Vorzeichen,wenn eines positiv und eines
+ negativ ist. Die F&#228;lle sind in Abbildung 5 dargestellt.
+<p>
+<center><img src="Vorzeichenbeispiele.png"></center>
+<center>Abbildung 5&#58; Vorzeichenbeispiele a) beide negativ b) beide positiv c) eines positiv und eines negativ</center>
+<p>        	
+Die Quadranten der 3. Frage werden im mathematisch positiven Drehsinn
+ gez&#228;hlt &#40;s. Abb. 4&#41;.
+<p>
+Die Bewegung des Schwinghebels von Frage 4 ist mathematisch positiv,
+ wenn sich der Schwinghebel &#40;Glied 3 mit der L&#228;nge <FONT size="5">l<SUB> 3</SUB><FONT size="4">&#41; mathematisch
+ positiv um den Lagerpunkt <FONT size="5">B<SUB> 0</SUB><FONT size="4"> dreht.
+ Bei umgekehrter Drehrichtung ist die Bewegung des Schwinghebels mathematisch
+ negativ.
+<p>
+In der dritten Eingabemaske kann die Skalierung der Plotfunktionen eingegeben
+ werden. Im oberen Teil des Fensters k&#246;nnen die Funktion markiert werden,
+ woraufhin die Funktion mit einem H&#228;kchen versehen und die Eingabefelder
+ freigegeben werden. Es sind f&#252;r die Skalierung die kleinsten Werte des
+ Plotbereichs &#40;<FONT size="5">x<SUB> min</SUB><FONT size="4"> u.
+ <FONT size="5">y<SUB> min</SUB><FONT size="4">&#41;, die gr&#246;&#223;ten
+ Werte des Plotbereichs &#40;<FONT size="5">x<SUB> max</SUB><FONT size="4"> u.
+ <FONT size="5">y<SUB> max</SUB><FONT size="4">&#41; sowie die Abst&#228;nde
+ der Skalenwerte &#40;<FONT size="5">dx<FONT size="4"> u.
+ <FONT size="5">dy<FONT size="4">&#41;
+ einzugeben. Ist eine Funktion nicht markiert, dann werden die eingegebenen
+ Werte nicht vom Programm verwendet. In diesem Fall generiert das Programm
+ die Skalierung automatisch.
+<p>
+Nach erfolgter Parametereingabe k&#246;nnen die Berechnungen mit dem Button
+ <tt>Ausf&#252;hren</tt> ausgel&#246;st werden. Daraufhin werden die Ergebnisse im
+ Hauptfenster angezeigt und in ASCII-Dateien gespeichert
+<p>
+<ul>
+<li>&#8222;Dateiname.ocv&#8221; enth&#228;lt alle Eingabeparameter<br>&#0; &#0;</li>
+<li>&#8222;Dateiname.asc&#8221; enth&#228;lt alle vom Drehwinkel abh&#228;ngigen Ergebnisse<br>&#0; &#0;</li>
+<li>&#8222;Dateiname_aussen.asc&#8221; enth&#228;lt die Koordinaten der &#228;u&#223;eren Arbeitskurve<br>&#0; &#0;</li>
+<li>&#8222;Dateiname_innen.asc&#8221; enth&#228;lt die Koordinaten der inneren Arbeitskurve<br>&#0; &#0;</li>
+<li>&#8222;Dateiname_mitte.asc&#8221; enth&#228;lt die Koordinaten der Rollenmittelpunktskurve<br>&#0; &#0;</li>
+<li>&#8222;Dateiname_s_phi.asc&#8221; enth&#228;lt den berechneten Hubverlauf <FONT size="5">s&#40;&#966;&#41;<FONT size="4"></li>
+</ul>
+<p>
+Mit dem Button <tt>Abbrechen</tt> wird die
+Eingabe abgebrochen.
+<p>
+<h4>&#214;ffnen</h4>
+<P>
+Das Men&#252; &#214;<u>f</u>fnen erlaubt dem Nutzer eine Projektdatei &#8222;Dateiname.ocv&#8221;
+zu &#246;ffnen und im darauf folgenden Eingabefenster &#196;nderungen
+an den Parametern vorzunehmen.
+<p>
+<h4>Drucken</h4>
+<P>
+&#214;ffnet ein Dialogfenster zur Auswahl von Druckereinstellungen. Mit einem Klick auf
+ den <tt>OK</tt>-Button wird der Druckauftrag gestartet.
+<p>
+<h4>Voreinstellungen</h4>
+<P>
+Unter <tt>Voreinstellungen</tt> kann der Anwender Einstellungen zur Arbeitsweise des
+ Programms vornehmen. Dies sind bisher nur die Optionen&#58;
+<ul>
+<li>Vor dem Berechnungsstart immer nach dem Dateiname fragen<br>&#0; &#0;</li>
+<li>Skalierfaktor der zu druckenden Plotfunktion<br>&#0; &#0;</li>
+</ul>
+<p>
+Wird die erste Option aktiviert, d.h. mit einem H&#228;kchen versehen, dann wird das
+ Dialogfenster zur Eingabe des Dateinamens &#40;Abb. 1&#41; vor dem
+ Ausf&#252;hren der Berechnungen eingeblendet. Dies ist dann sinnvoll, wenn man
+ f&#252;r ein Bewegungsgesetz mehrere Versionen von Kurvenscheiben erzeugen
+ will, indem man die Eingabeparameter variiert und diese Varianten unter
+ verschiedenen Versionsnamen speichert.
+<p>
+Die zweite Option erm&#246;glicht dem Nutzer eine manuelle Anpassung der Plotfenstergr&#246;&#223;e
+ und damit auch der Gr&#246;&#223;e der beim Ausdrucken. Ein Skalierfaktor von 1 entspricht
+ einer Bildgr&#246;&#223;e von 500 &#215; 500 Pixeln. Bei Hochaufl&#246;senden Druckern kann
+ deshalb eine Skalierung notwendig sein.
+<p>
+<h4>Schlie&#223;en</h4>
+<P>
+Beendet das Programm.
+<H3><A NAME="ss3.2">3.2 Ausgabe</A>
+</H3>
+<p>
+<h4>Eingabeparameter</h4>
+<p>
+Gibt die bei der zuletzt berechneten Kurvenscheibe verwendeten Eingabeparameter
+ im Hauptfenster aus. Diese k&#246;nnen zur Dokumentation auch ausgedruckt werden.
+<p>
+<h4>Grafik</h4>
+<p>
+Startet einen Funktionsplotter bestehend aus Steuerfenster und Grafikfenster
+ &#40;Abb. 6&#41;. Erm&#246;glicht dem Nutzer die grafische Ausgabe der
+ Ergebnisse auf dem Bildschirm.
+<p>
+<center><img src="Funktionsplotter2.png"></center>
+<center>Abbildung 5&#58; Funktionsplotter</center>
+Wurde die Kurvenscheibe als Nutkurvenscheibe ausgef&#252;hrt, dann stehen folgende
+ Plotfunktionen zur Verf&#252;gung&#58;
+<p>
+<ul>
+<li>Arbeitskurven</li>
+</ul>
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>blau</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Rollenmittelpunktskurve</TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>gr&#252;n</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>innere und &#228;u&#223;ere Arbeitskurve</TD>
+</TR>
+</TABLE>
+<p>
+<ul>
+<li>Verl&#228;ufe <FONT size="5">s&#40;&#966;&#41;<FONT size="4"> und <FONT size="5">s&#180;&#40;&#966;&#41;<FONT size="4"></li>
+</ul>
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>blau</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Hubverlauf <FONT size="5">s&#40;&#966;&#41;<FONT size="4"></TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>gr&#252;n</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Verlauf der Hubgeschwindigkeit <FONT size="5">s&#180;&#40;&#966;&#41;<FONT size="4"></TD>
+</TR>
+</TABLE>
+<p>
+<ul>
+<li>Verl&#228;ufe <FONT size="5">&#968;&#40;&#966;&#41;<FONT size="4">, <FONT size="5">&#968;&#180;&#40;&#966;&#41;<FONT size="4"> und <FONT size="5">&#968;&#180;&#180;&#40;&#966;&#41;<FONT size="4"></li>
+</ul>
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>blau</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Abtriebswinkelverlauf <FONT size="5">&#968;&#40;&#966;&#41;<FONT size="4"></TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>gr&#252;n</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Verlauf der Abtriebswinkelgeschwindigkeit <FONT size="5">&#968;&#180;&#40;&#966;&#41;<FONT size="4"></TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>rot</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Verlauf der Abtriebswinkelbeschleunigung <FONT size="5">&#968;&#180;&#180;&#40;&#966;&#41;<FONT size="4"></TD>
+</TR>
+</TABLE>
+<p>
+<ul>
+<li>Kurvenscheibe</li>
+</ul>
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>blau</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Rollenmittelpunktskurve</TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>gr&#252;n</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>innere und &#228;u&#223;ere Arbeitskurve</TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>rot</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Wellendurchmesser und Kurvenscheibendurchmesser</TD>
+</TR>
+</TABLE>
+<p>
+<ul>
+<li>Verl&#228;ufe <FONT size="5">x<sub> Bik</sub>&#40;&#966;&#41;<FONT size="4"> und <FONT size="5">x&#180;<sub> Bik</sub>&#40;&#966;&#41;<FONT size="4"></li>
+</ul>
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>blau</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Verlauf <FONT size="5">x<sub> Bik</sub>&#40;&#966;&#41;<FONT size="4"></TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>gr&#252;n</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Verlauf <FONT size="5">x&#180;<sub> Bik</sub>&#40;&#966;&#41;<FONT size="4"></TD>
+</TR>
+</TABLE>
+<p>
+<ul>
+<li>Verl&#228;ufe <FONT size="5">y<sub> Bik</sub>&#40;&#966;&#41;<FONT size="4"> und <FONT size="5">y&#180;<sub> Bik</sub>&#40;&#966;&#41;<FONT size="4"></li>
+</ul>
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>blau</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Verlauf <FONT size="5">y<sub> Bik</sub>&#40;&#966;&#41;<FONT size="4"></TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>gr&#252;n</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Verlauf <FONT size="5">y&#180;<sub> Bik</sub>&#40;&#966;&#41;<FONT size="4"></TD>
+</TR>
+</TABLE>
+<p>
+<ul>
+<li>&#220;bertragungswinkel <FONT size="5">&#181;<FONT size="4"></li>
+</ul>
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>blau</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Verlauf des &#220;bertragungswinkels <FONT size="5">&#181;<FONT size="4"></TD>
+</TR>
+</TABLE>
+<p>
+<ul>
+<li>Kr&#252;mmungsradius <FONT size="5">r<sub> K</sub><FONT size="4"></li>
+</ul>
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>blau</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Verlauf des Kr&#252;mmungsradius <FONT size="5">r<sub> K</sub><FONT size="4"></TD>
+</TR>
+</TABLE>
+<p>
+Bei Doppelkurvenscheiben werden die gleichen Darstellungen wie bei den
+ Nutkurvenscheiben verwendet. Lediglich die Darstellung der Arbeitskurven
+ und der Kurvenscheibe wurde anders gew&#228;hlt. Die Mittelpunktskurven
+ sind ebenfalls verf&#252;gbar&#58;
+<ul>
+<li>Kurve und Gegenkurve</li>
+</ul>
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>blau</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Rollenmittelpunktskurve der Kurve</TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>gr&#252;n</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Rollenmittelpunktskurve der Gegenkurve</TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>lila</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Au&#223;en- und Innenkonturen (Arbeitskurven)</TD>
+</TR>
+</TABLE>
+<p>
+<ul>
+<li>Kurvenscheibe</li>
+</ul>
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>blau</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Rollenmittelpunktskurve der Kurve</TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>gr&#252;n</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Rollenmittelpunktskurve der Gegenkurve</TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>lila</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Au&#223;en- und Innenkonturen (Arbeitskurven)</TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>rot</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Wellendurchmesser</TD>
+</TR>
+</TABLE>
+<p>
+<ul>
+<li>Mittelpunktskurven</li>
+</ul>
+<p>
+<TABLE border="0" cellspacing="0" cellpadding="3" >
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>blau</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Rollenmittelpunktskurve der Kurve</TD>
+</TR>
+<TR>
+<TD width="8.5%"><font size="4"></TD><TD width="7%"><font size="4"><i>gr&#252;n</TD><TD width="10%"><font size="4"><i>. . .</TD><TD><font size="4"><i>Rollenmittelpunktskurve der Gegenkurve</TD>
+</TR>
+</TABLE>
+<p>
+<h4>Tabelle</h4>
+<p>
+Zeigt im Hauptfenster alle berechneten Ergebnisse in tabellarischer Form an.
+<P>
+<H3><A NAME="ss3.3">3.3 Hilfe</A>
+</H3>
+<p>
+<h4>Manual</h4>
+<p>
+Zeigt die Seiten dieses Manuals an.
+<p>
+<h4>&#220;ber opticurv</h4>
+<p>
+Zeigt wesentliche Informationen zu &#8222;opticurv&#8221; an.
+<P>
+<br>
+<br>
+<p ALIGN="RIGHT">
+
+<a HREF="index-4.html">Weiter</a> <a HREF="index-2.html">Zur&#252;ck</a>
+
+ <a HREF="index.html#toc3">Inhaltsverzeichnis</a>
+</p>
+<center>
+<hr WIDTH="100%" SIZE=3 ALIGN=CENTER NOSHADE>
+</center>
+</font>
+
+
+</body>
+</html>

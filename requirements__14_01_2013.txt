@@ -1,0 +1,20 @@
+
+Acest principiu cu ferestre este inregula
+despre formatele rezultatelor,
+
+la definirea fiecarei came utilizatorul ar trebui sa dea un nume la llibera lui alegere, dar care va incepe intotdeauna cu un numar in continuarea ultimuluia, incepadn cu 01,02 ...si apoi sa poata fi completat cu maxim 20 de caractere
+Sub acest nume si extins cu prescurtari semnificative  ( ex "I" cama interioara, "A" cama esterioara ) . Toate datele trebuie salvate la alegere intr-un worspace.
+Toate formatele folosite la salvare sa fie format csv ( http://en.wikipedia.org/wiki/Comma-separated_values ) sa fie compatibile cu programe gen Excel, CAD etc.
+
+salvarea tuturor datelor sa fie la apasarea unui singur click. ( Toolstrip)
+
+Secven?a de miscare (succesiunea miscarilor) pentru toate camele într-un fi?ier.
+
+Intregul proiect sa fie asigurat ca fisier de program cu o comanda centrala => sa poti deschide programul prin click pe fisierul proiect ( sau workspace ) => De intrebat Erwin. !!!!!!!!
+
+-----> modificabile toate caracteristicile camelor direct in treeview!!!!!!
+-----> posibilitatea de a importa legi de miscare
+-----> posibilitatea de a importa mai multe came sub forma unor fisiere cu un anumit format!( de luat tipul fisierelor si datelor din ele! )
+----> meniu de import fisier cu mai multe legi de miscare ( fisiere generate de un program CAD ) cu posibilitatea de a modifica datele salvate.
+----> datele unghiurilor trebuie pe un alt tab pe ultima pagina!
+----> in locul unde sunt datele de unghiuri sa fie poza cu graficele!
